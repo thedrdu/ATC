@@ -5,6 +5,10 @@ body{
   background-color: #121212;  
 }
 
+h1 {
+  text-shadow: 6px 6px #000000;
+}
+
 p {
   border-right: solid 3px rgba(0,255,0,.75);
   white-space: nowrap;
@@ -30,7 +34,7 @@ p {
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
+  from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
 
